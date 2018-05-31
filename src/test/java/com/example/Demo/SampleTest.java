@@ -13,7 +13,7 @@ public class SampleTest {
     @Test
     public void fizzBuzzTest_case1(){
         String expected = sample.fizzOrBuzz(15);
-        Assert.assertEquals(expected,"Fizz");
+        Assert.assertEquals(expected,"FizzBuzz");
     }
 
     @Test
